@@ -6,7 +6,7 @@
 #include <functional>
 #include "mpi.h"
 
-
+//Divyat
 std::uint32_t T;
 std::uint32_t n [100];
 void ass1 (void)
