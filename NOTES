@@ -1,0 +1,2 @@
+1. Programs must not declare variables or functions with names 
+beginning with the prefix MPI_ or PMPI_ (profiling interface).

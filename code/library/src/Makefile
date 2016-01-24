@@ -1,7 +1,8 @@
 top_builddir = ../../..
 include ${top_builddir}/makeinclude
 
-CPP_SRC = mpl1.cxx
+CPP_SRC = mpl1.cxx \
+	  pi.cxx
 
 DEP  = ${CPP_SRC:%.cxx=%.dep}
 OBJ  = ${CPP_SRC:%.cxx=%.o}
